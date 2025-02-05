@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    background-color: antiquewhite;
+    font-family:monospace;
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: rgb(89, 59, 23);
+    height:2rem;
+    display: flex;
+    padding:20px 50px;
+    justify-content: space-between;
+}
+
+#navLeft{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+#profilePic{
+    height:35px;
+    border-radius: 20px;
+}
+
+#userName{
+    font-size: 20px;
+    padding-left: 15px;
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+#navRight{
+    background-color: transparent;
+}
+
+#popUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:auto;
+    padding: 40px;
+    height:20rem;
+    width:40rem;
+    background-color: rgb(89, 59, 23);
+    margin-top: 7%;
+}
+
+.popUpText{
+    color: antiquewhite;
+    background-color: rgb(89, 59, 23);
+}
+
+#popUpP{
+    background-color: rgb(89, 59, 23);
+    margin-top: 10px;
+}
+
+#popUpBtns{
+    background-color: rgb(89, 59, 23);
+}
+
+#popUpBtn{
+    width:500px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+}
