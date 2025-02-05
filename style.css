@@ -60,7 +60,6 @@ nav{
     height:20rem;
     width:40rem;
     background-color: rgb(89, 59, 23);
-    /* margin-top: 12%; */
     z-index:10;
 }
 
@@ -86,4 +85,52 @@ nav{
 
 main{
     padding:20px 50px;
+    flex-direction: column;
+}
+
+#mainHeadDiv{
+    margin-bottom: 60px;
+    color: rgb(89, 59, 23);
+}
+
+#jobList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jobCard{
+    margin:1rem;
+    padding: 1rem;
+    height:180px;
+    width:150px;
+    border-style: dashed;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBody{
+    margin-top: 6px;
+}
+
+.cardHead, .cardBody{
+    overflow: hidden;
+}
+
+.cardSaveDiv{
+    display: flex;
+    justify-content: end;
+}
+
+.saved{
+    color: antiquewhite;
+    background-color: rgb(89, 59, 23);
+    border-color: rgb(89, 59, 23) ;
 }
