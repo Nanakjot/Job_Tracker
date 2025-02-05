@@ -7,6 +7,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 nav{
     background-color: rgb(89, 59, 23);
     height:2rem;
@@ -37,6 +38,19 @@ nav{
     background-color: transparent;
 }
 
+#extraTop{
+    margin-top:11%;
+}
+
+#extraP{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#extraTop,#extraBottom,#popUp{
+    margin:80px;
+}
 #popUp{
     display: flex;
     flex-direction: column;
@@ -46,7 +60,8 @@ nav{
     height:20rem;
     width:40rem;
     background-color: rgb(89, 59, 23);
-    margin-top: 7%;
+    /* margin-top: 12%; */
+    z-index:10;
 }
 
 .popUpText{
@@ -67,4 +82,8 @@ nav{
     width:500px;
     background-color: antiquewhite;
     margin-bottom: 20px;
+}
+
+main{
+    padding:20px 50px;
 }
